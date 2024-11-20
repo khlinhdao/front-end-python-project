@@ -2,8 +2,8 @@ from nicegui import ui
 from typing import Dict, List
 import json
 from dictionary import DictionaryUI
-from frontendflash import FlashcardStudyPanel
-from backend import FlashcardManager
+from frontend_flash import FlashcardStudyPanel
+from backend_flash import FlashcardManager
 from dictation_sql import Dictation
 
 class DashboardApp:
